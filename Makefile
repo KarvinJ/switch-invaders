@@ -44,8 +44,8 @@ DATA		:=	data
 INCLUDES	:=	include
 ROMFS		:=	romfs
 
-APP_TITLE   := Switch SDL2 Complete Starter
-APP_AUTHOR  := carstene1ns
+APP_TITLE   := Switch Invaders
+APP_AUTHOR  := knight
 
 #---------------------------------------------------------------------------------
 # options for code generation

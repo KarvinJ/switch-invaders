@@ -33,8 +33,8 @@ int startSDL(SDL_Window *window, SDL_Renderer *renderer)
         return 1;
     }
 
-    // to allocate my 5 audio files
-    Mix_AllocateChannels(5);
+    // to allocate my audio files
+    Mix_AllocateChannels(1);
     if (Mix_OpenAudio(48000, AUDIO_S16, 2, 4096) < 0)
     {
         printf("SDL_mixer could not initialize! SDL_mixer Error: %s\n", Mix_GetError());
